@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Render Card</title>
+    <link rel="stylesheet" href="/style/render.css">
+</head>
+
+<body>
+    <div class="pages">
+        <div class="page">
+        </div>
+    </div>
+
+    <div class="menu">
+        <div class="item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-text-center" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </div>
+        <div class="item">
+            <select class="paper" name="ukurankertas">
+                <option value="a4">A4</option>
+                <option value="a3">A3</option>
+                <option value="a5">A5</option>
+            </select>
+        </div>
+        <div class="item">
+            <button class="file-input">Upload Data</button>
+        </div>
+    </div>
+
+    <script src="/assets/xlsx.full.min.js"></script>
+    <script src="/assets/jsBarcode.min.js"></script>
+    <script src="/assets/render.js"></script>
+</body>
+</html>

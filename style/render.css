@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    padding:0;
+    background: #000;
+    font-family: system-ui;
+
+}
+.page {
+    width: 210mm;
+    height: 297mm;
+    background-color: #fff;
+    margin:0 auto;
+    padding:10px;
+}
+.menu {
+    position: fixed;
+    display: flex;
+    gap: 1rem;
+    left:0;
+    top:0;
+    z-index: 3000;
+    background-color: #fff;
+    padding: 4px 30px;
+    border-radius: 2rem;
+    place-items: center;
+}
+.menu .paper {
+    width: 5rem;
+    padding:10px;
+}
